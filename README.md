@@ -16,7 +16,7 @@ Deposit SOL into a single Treasury Dashboard. Your agents just sign the intent l
 ## 🔥 Core Features
 - ⛽ **Absolute Gas Abstraction:** Bots can operate with completely empty wallets.
 - 🛡️ **Default MEV Protection:** 100% of transactions are routed via Jito Private Mempool. Zero sandwich attacks.
-- 🔀 **Jupiter V6 Native:** Built-in wrapper for optimal swap routes and instant execution.
+- 🔀 **Jupiter API Native:** Built-in wrapper for optimal swap routes and instant execution.
 - 🔒 **Trustless Architecture:** Your agent's private key never leaves the local environment. We only receive a locally `partial_signed` payload.
 
 ## 📦 Installation
@@ -78,9 +78,6 @@ Open Source: This client SDK is 100% transparent. Inspect the code to verify tha
 
 ## ⚖️ Legal & Compliance
 - [Terms of Service](./TERMS.md)
-- [Privacy Policy](./PRIVACY.md) *(Coming soon)*
-- [Security Disclosures](./SECURITY.md) *(Coming soon)*
-- Bug Bounty: security@soltex.router *(placeholder)*
 
 **Disclaimer**: This software is provided "AS IS". Use at your own risk. 
 Not financial advice. Not a custodial service.
