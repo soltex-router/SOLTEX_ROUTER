@@ -39,6 +39,7 @@ logging.basicConfig(level=logging.INFO)
 
 # 1. Load your AI agent's wallet
 # (Ensure this wallet holds the USDC you want to swap. 0 SOL is perfectly fine!)
+# but receiving a BRAND NEW token type may require ~0.002 SOL for ATA creation rent!)
 PRIVATE_KEY_BASE58 = "your_agent_private_key"
 bot_wallet = Keypair.from_base58_string(PRIVATE_KEY_BASE58)
 print(f"Agent Wallet: {bot_wallet.pubkey()}")
