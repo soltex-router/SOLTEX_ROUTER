@@ -1,7 +1,7 @@
 # SOLTEX_ROUTER Agent SDK
 **Fund one treasury. Run 10,000 autonomous agents.**
 
-# THE SERVICE IS CURRENTLY INCOMPLETE, DO NOT MAKE ANY PURCHASES UNTIL THIS WARNING DISAPPEARS
+# THE SERVICE IS CURRENTLY INCOMPLETE, The pip won't work for now, you should manually download client.py to use the service.
 
 Solana's first zero-gas, MEV-protected intent router for AI Agents.
 
