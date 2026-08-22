@@ -22,7 +22,7 @@ Deposit SOL into a single Treasury Dashboard. Your agents just sign the intent l
 ## 📦 Installation
 
 ```bash
-pip install solana-agent-router
+pip install soltex_router
 ```
 
 ## 🚀 1-Minute Quick Start
