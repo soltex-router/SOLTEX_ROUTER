@@ -1,4 +1,4 @@
-# 🤖 SOLTEX Agent Router SDK
+# SOLTEX_ROUTER Agent SDK
 **Fund one treasury. Run 10,000 autonomous agents.**
 
 Solana's first zero-gas, MEV-protected intent router for AI Agents.
