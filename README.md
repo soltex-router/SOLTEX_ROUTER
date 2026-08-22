@@ -1,6 +1,8 @@
 # SOLTEX_ROUTER Agent SDK
 **Fund one treasury. Run 10,000 autonomous agents.**
 
+##THE SERVICE IS CURRENTLY INCOMPLETE, DO NOT MAKE ANY PURCHASES UNTIL THIS WARNING DISAPPEARS
+
 Solana's first zero-gas, MEV-protected intent router for AI Agents.
 
 Stop manually funding hundreds of bot wallets with SOL dust. `solana-agent-router` is a meta-routing SDK that completely abstracts gas fees and Jito tips, allowing your AI agents to execute swaps with 0.0000 SOL balance.
