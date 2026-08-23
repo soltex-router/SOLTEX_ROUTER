@@ -80,6 +80,9 @@ Open Source: This client SDK is 100% transparent. Inspect the code to verify tha
 ## ⚖️ Legal & Compliance
 - [Terms of Service](./TERMS.md)
 
+## More information
+- [Detailed Guide](./guide.md)
+
 **Disclaimer**: This software is provided "AS IS". Use at your own risk. 
 Not financial advice. Not a custodial service.
 
