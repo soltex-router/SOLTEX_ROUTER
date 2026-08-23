@@ -15,7 +15,7 @@ Deposit SOL into a single Treasury Dashboard. Your agents just sign the intent l
 
 ## 🔥 Core Features
 - ⛽ **Absolute Gas Abstraction:** Bots can operate with completely empty wallets.
-- 🛡️ **Default MEV Protection:** 100% of transactions are routed via Jito Private Mempool. Zero sandwich attacks.
+- 🛡️ **Default MEV Protection:** 100% of transactions are routed via Jito Block Engine. Zero sandwich attacks.
 - 🔀 **Jupiter API Native:** Built-in wrapper for optimal swap routes and instant execution.
 - 🔒 **Trustless Architecture:** Your agent's private key never leaves the local environment. We only receive a locally `partial_signed` payload.
 
@@ -28,10 +28,13 @@ pip install soltex-router
 ## 🚀 1-Minute Quick Start
 Look how incredibly simple it is to swap tokens without worrying about gas fees. 
 
->⚠️ IMPORTANT NOTE: Your agent's wallet needs 0 SOL - SOLTEX automatically sponsors all gas fees and ATA rent. Your wallet only needs to hold the tokens you want to swap (e.g., 10 USDC).
-How Auto-Funding Works:
-If your bot wallet has less than 0.005 SOL, SOLTEX automatically deposits 0.005 SOL to cover transaction costs. This funding remains in your wallet until depleted. SOLTEX will not send additional SOL until your balance drops below the 0.005 SOL threshold again.
-⚠️ First Swap Behavior: If your wallet starts with 0 SOL, the first swap may be dropped (not executed) while SOLTEX deposits the 0.005 SOL. Subsequent swaps will succeed normally. This is a one-time initialization cost.
+> ⚠️ IMPORTANT NOTE: Your agent's wallet needs 0 SOL - SOLTEX automatically sponsors all gas fees and ATA rent. Your wallet only needs to hold the tokens you want to swap (e.g., 10 USDC).
+> How Auto-Funding Works:
+> If your bot wallet has less than 0.005 SOL, SOLTEX automatically deposits 0.005 SOL to cover transaction costs. This funding remains in your wallet until depleted. SOLTEX will not send additional SOL until your balance drops below the 0.005 SOL threshold again.
+
+
+> ⚠️ First Swap Behavior:
+> If your wallet starts with 0 SOL, the first swap may be dropped (not executed) while SOLTEX deposits the 0.005 SOL. Subsequent swaps will succeed normally. This is a one-time initialization cost.
 
 ```python
 import logging
