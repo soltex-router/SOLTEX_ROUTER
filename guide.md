@@ -21,7 +21,7 @@ pip install soltex-router
 ```python
 import logging
 from solders.keypair import Keypair
-from client import AgentRouter
+from soltex_router import AgentRouter
 
 logging.basicConfig(level=logging.INFO)
 
