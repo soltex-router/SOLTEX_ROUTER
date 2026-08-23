@@ -296,8 +296,8 @@ A: No. Server sponsors gas. However, receiving a NEW token type may require ~0.0
 **Q: What if Jito is down?**
 A: Automatic fallback to standard RPC. MEV protection is best-effort.
 
-**Q: Can I use this for arbitrage bots?**
-A: Yes. Typical latency: 500-800ms.
+Q: Can I use this for High-Frequency Arbitrage bots?
+A: No. SOLTEX is engineered for 100% gasless execution and MEV protection, not sub-second HFT. Because we route through backend gas-sponsors and the Jito Block Engine, typical latency is around 3-5 seconds. It is the perfect infrastructure for AI agents, DCA bots, and automated portfolio rebalancers where execution certainty and gas abstraction matter more than sheer speed.
 
 **Q: What happens if my swap fails on-chain?**
 A: Credits are refunded automatically within 10 minutes (minus 10k lamport spam penalty).
