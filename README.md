@@ -33,7 +33,7 @@ Look how incredibly simple it is to swap tokens without worrying about gas fees.
 ```python
 import logging
 from solders.keypair import Keypair
-from client import AgentRouter
+from soltex_router import AgentRouter
 
 logging.basicConfig(level=logging.INFO)
 
