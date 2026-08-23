@@ -83,4 +83,5 @@ Open Source: This client SDK is 100% transparent. Inspect the code to verify tha
 **Disclaimer**: This software is provided "AS IS". Use at your own risk. 
 Not financial advice. Not a custodial service.
 
+website: https://soltex-router.com/
 contact: soltex_router@protonmail.com
