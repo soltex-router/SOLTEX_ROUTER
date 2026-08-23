@@ -46,7 +46,7 @@ print(f"Agent Wallet: {bot_wallet.pubkey()}")
 
 # 2. Connect to SOLTEX
 router = AgentRouter(
-    api_key="SOLTEX_your_actual_api_key",  # Issued via SOLTEX Dashboard
+    api_key="SOLTEX_your_actual_api_key",  # Issued via SOLTEX Dashboard (https://soltex-router.com/)
     payer=bot_wallet,
     rpc_url="https://mainnet.helius-rpc.com/?api-key=YOUR_API_KEY",
     server_url="https://api.soltex-router.com"
