@@ -28,7 +28,8 @@ pip install soltex-router
 ## 🚀 1-Minute Quick Start
 Look how incredibly simple it is to swap tokens without worrying about gas fees. 
 
-> ⚠️ **IMPORTANT NOTE:** Your agent's wallet needs **exactly 0.000 SOL** to pay for gas, but it **MUST contain the tokens you are trying to swap** (e.g., 10 USDC).
+>⚠️ IMPORTANT NOTE: Your agent's wallet needs 0 SOL - SOLTEX automatically sponsors all gas fees and ATA rent. Your wallet only needs to hold the tokens you want to swap (e.g., 10 USDC).
+How Auto-Funding Works: If your bot wallet has less than 0.005 SOL, SOLTEX automatically deposits 0.005 SOL to cover transaction costs. This funding remains in your wallet until depleted. SOLTEX will not send additional SOL until your balance drops below the 0.005 SOL threshold again.
 
 ```python
 import logging
