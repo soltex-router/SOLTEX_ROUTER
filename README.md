@@ -5,6 +5,8 @@ Solana's first zero-gas, MEV-protected intent router for AI Agents.
 
 Stop manually funding hundreds of bot wallets with SOL dust. `soltex router` is a meta-routing SDK that completely abstracts gas fees and Jito tips, allowing your AI agents to execute swaps with 0.0000 SOL balance.
 
+##The current service is incomplete, please wait until the service officially launches
+
 ## ⚡ Why SOLTEX Router?
 
 ### ❌ The Old Way (Painful)
